@@ -88,9 +88,9 @@ class Ex2_6 extends Ex{
                         Scanner stdIn = new Scanner(System.in);
                         System.out.println("三角形の底辺と高さを実数値で読み込んで、その面積を表示せよ");
                         System.out.print("xの値（底辺）：");  
-                        double x = stdIn.nextdouble();
+                        double x = stdIn.nextDouble();
                         System.out.print("yの値：（高さ）");  
-                        double y = stdIn.nextdouble();
+                        double y = stdIn.nextDouble();
                         System.out.println("x * y = " + (x * y) / 2); 
   }
 }
