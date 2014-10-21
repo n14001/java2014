@@ -51,15 +51,67 @@ class Ex2_2 extends Ex{
 
 	}
 }
+class Ex2_3 extends Ex{
+       void execute(){
+                        Scanner stdIn = new Scanner(System.in);
+                        System.out.println("xとyを加減乗除します。");
+                        System.out.print("xの値：");
+                        int x = stdIn.nextInt();
+                        System.out.println("x ="); 
+                        System.out.println("x ="); 
+                               }   
+}
+class Ex2_4 extends Ex{
+	void execute(){
+			Scanner stdIn = new Scanner(System.in);
+			System.out.println("xとyを加減乗除します。");
+			System.out.print("xの値：");	
+			int x = stdIn.nextInt();
+			System.out.println("x + x = " + (x + 10)); 
+			System.out.println("x - x = " + (x - 10)); 
+		}
+}
+class Ex2_5 extends Ex{
+	void execute(){
+                        Scanner stdIn = new Scanner(System.in);
+			System.out.println("xとyを加減乗除します。");
+			System.out.print("xの値：");	
+			int x = stdIn.nextInt();
+			System.out.print("yの値：");	
+			int y = stdIn.nextInt();
+		        System.out.println(" x + y =" +(x + y));
+                        System.out.println("x + y / 2 =" + (x + y / 2));
+	}
+}
+class Ex2_6 extends Ex{
+        void execute(){
+                        Scanner stdIn = new Scanner(System.in);
+                        System.out.println("xとyを加減乗除します。");
+                        System.out.print("xの値：");  
+                        int x = stdIn.nextInt();
+                        System.out.print("yの値：");  
+                        int y = stdIn.nextInt();
+                        System.out.println("x * y = " + (x * y) / 2); 
+  }
+}
+
 public class Ex2 {
 	public static void main(String[] args){
 		Ex a;
 		a = new Ex2_0();
-		a.execute();
+	        a.execute();
                 a = new Ex2_1();
 		a.execute();
                 a = new Ex2_2();
 		a.execute();
+                a = new Ex2_3();
+	        a.execute();
+                a = new Ex2_4();
+		a.execute();	
+		a = new Ex2_5();
+                a.execute();
+                a = new Ex2_6();
+		a.execute();	
 
 	}
 }
