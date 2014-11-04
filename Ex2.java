@@ -98,6 +98,7 @@ class Ex2_6 extends Ex{
 public class Ex2 {
 	public static void main(String[] args){
 		Ex a;
+/**/
 		a = new Ex2_0();
 	        a.execute();
                 a = new Ex2_1();
