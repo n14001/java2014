@@ -55,8 +55,30 @@ class Ex3{
     return 0;
   }
 
+<<<<<<< HEAD
   public String ex3_10(int a, int b){
     return "dummy";
   }
+=======
+	public int ex3_9(int a, int b){
+		return 0;
+	}
+
+	public String ex3_10(int a, int b){
+		return "dummy";
+	}
+
+	public int ex3_11(int a, int b, int c){
+		return 1000;
+	}
+
+	public int ex3_12(int a, int b, int c){
+		return 1000;
+	}
+
+	public String ex3_13(int a){
+		return "dummy";
+	}
+>>>>>>> 6de455b2988fdd3a820e755d6dc3966f2ccb29de
 }
 
