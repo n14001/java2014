@@ -43,11 +43,10 @@ class Ex3{
     if(0 > a){
         return "正でない整数値です";
     }else if(a % 5 == 0){
-        return "その値を５で割り切れます";
+        return "その値は5で割り切れます";
     }else{
-        return "その値は５で割り切れません";
+        return "その値は5で割り切れません";
     }
-
   }
 
   public String ex3_5(int a){
@@ -83,7 +82,7 @@ class Ex3{
     }else if(80 <= a && a <= 100){
         return"優";
     }else{
-        return"範囲(0~100)外の値です";
+        return"範囲(0～100)外の値です";
     }
 
   }
